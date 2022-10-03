@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url(../css/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratLight;
+  src: url(../css/static/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(../css/static/Montserrat-Bold.ttf);
+}
+/* begin horizontal navigation */
+nav {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffcab0;
+}
+nav .links a {
+  font-size: 30px;
+  margin-right: 22px;
+  text-decoration: none;
+  font-family: MontserratMedium;
+  color: #db8053;
+}
+
+.homeContent {
+  height: 100%;
+  background-color: #ffebbb;
+}
+.homeContent .heroImage {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../images/herImageBG.png);
+}
+.homeContent h1 {
+  color: #c2af83;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  font-family: MontserratLight;
+}
+.homeContent .intro {
+  display: flex;
+}
+.homeContent .intro p {
+  color: #000;
+  font-size: 25px;
+  width: 800px;
+  margin-right: 20px;
+  margin-left: 50px;
+  font-family: MontserratLight;
+}
+.homeContent .contact {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e0ffcd;
+}
+.homeContent .contact .ph-em {
+  margin-left: -150px;
+}
+.homeContent .contact .ph-em h4 {
+  color: #699150;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  font-family: MontserratLight;
+}
+.homeContent .contact .ph-em a {
+  color: #699150;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: MontserratLight;
+}
+.homeContent .contact .ph-em a .boldHours {
+  color: #699150;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: MontserratLight;
+}
+.homeContent .contact .map-photo img {
+  width: 200px;
+  height: 300px;
+}
+.homeContent .contact .hours h4 {
+  color: #699150;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  font-family: MontserratLight;
+}
+.homeContent .contact .hours p {
+  color: #699150;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: MontserratLight;
+}
+.homeContent .contact .hours p .boldHours {
+  color: #699150;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: MontserratLight;
+}
+
+.servicesContent {
+  height: 100%;
+  background-color: #fdffcd;
+}
+.servicesContent .serviceImage {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../images/doggygrooming.png);
+}
+.servicesContent h1 {
+  color: #c2af83;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  font-family: MontserratLight;
+}
+.servicesContent .serviceText {
+  color: #000;
+  font-size: 25px;
+  width: 800px;
+  margin-right: 20px;
+  margin-left: 350px;
+  font-family: MontserratLight;
+}
+.servicesContent .service-des {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.servicesContent .service-des .service-row {
+  width: 500px;
+  margin-left: 60px;
+}
+.servicesContent .service-des .service-row h4 {
+  color: #699150;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  font-family: MontserratLight;
+}
+.servicesContent .service-des .service-row p {
+  width: 400px;
+  color: #000;
+  font-size: 20px;
+  font-family: MontserratLight;
+}
+.servicesContent .service-des .service-row img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
+
+.loginContent {
+  height: 100%;
+  background-color: #e0ffcd;
+}
+.loginContent .loginImage {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../images/dogygroom-removebg-preview.png);
+}
+.loginContent h1 {
+  color: #699150;
+  text-align: center;
+  font-size: 50px;
+  margin-top: -120px;
+  letter-spacing: 2.5px;
+  font-family: MontserratLight;
+}
+.loginContent .loginIntro {
+  color: #000;
+  font-size: 25px;
+  width: 800px;
+  margin-left: 420px;
+  margin-bottom: 30px;
+  font-family: MontserratLight;
+}
+.loginContent .login {
+  display: flex;
+}
+.loginContent .login form {
+  margin: 0 auto;
+}
+.loginContent .login label {
+  color: #699150;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: MontserratLight;
+}
+.loginContent .login label .asterik {
+  color: red;
+}
+.loginContent .login input {
+  display: block;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  background-color: #e9f1e4;
+  border: 3px solid #699150;
+}
+.loginContent .login .submit {
+  height: 50px;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 150px;
+  background-color: #e9f1e4;
+  border: 3px solid #699150;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffcab0;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+  font-family: MontserratMedium;
+  color: #db8053;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,100 @@
+.homeContent {
+    height: 100%;
+    background-color:#ffebbb;
+
+    .heroImage {
+        height: 400px;
+        background-position: center;
+        background-image: url(../../images/herImageBG.png);
+    }
+    h1 {
+        color:#c2af83;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 2.5px;
+        font-family: MontserratLight;
+    }
+
+   .intro{
+    display: flex;
+    p {
+        color:#000;
+        font-size: 25px;
+        width: 800px;
+        margin-right: 20px;
+        margin-left: 50px;
+        font-family: MontserratLight;
+    }
+   
+   }
+
+   .contact {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e0ffcd;
+
+
+    .ph-em {
+   margin-left: -150px;
+   
+ h4 {
+        color:#699150;
+        font-size: 30px;
+        letter-spacing: 2.5px;
+        font-family: MontserratLight;
+    }
+
+    a {
+        color:#699150;
+         font-size: 20px;
+         text-decoration: none;
+        font-family: MontserratLight;
+
+        .boldHours {
+            color:#699150;
+         font-size: 20px;
+         font-weight: bold;
+         text-decoration: none;
+        font-family: MontserratLight;
+        }
+    }
+    }
+
+    .map-photo {
+      
+        img {
+            width: 200px;
+            height: 300px;
+        }
+    }
+
+    .hours {
+
+        h4 {
+            color:#699150;
+            font-size: 30px;
+            letter-spacing: 2.5px;
+            font-family: MontserratLight;
+        }
+        p {
+            color:#699150;
+         font-size: 20px;
+         text-decoration: none;
+        font-family: MontserratLight;
+
+        .boldHours {
+            color:#699150;
+         font-size: 20px;
+         font-weight: bold;
+         text-decoration: none;
+        font-family: MontserratLight;
+        }
+        }
+    }
+   
+   }
+}
+
+

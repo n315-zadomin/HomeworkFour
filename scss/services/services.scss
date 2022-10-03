@@ -1,0 +1,61 @@
+.servicesContent {
+    height: 100%;
+    background-color:#fdffcd;
+
+    .serviceImage {
+        height: 400px;
+        background-position: center;
+        background-image: url(../../images/doggygrooming.png);
+    }
+
+    h1 {
+        color:#c2af83;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 2.5px;
+        font-family: MontserratLight;
+    }
+
+    .serviceText {
+        color:#000;
+        font-size: 25px;
+        width: 800px;
+        margin-right: 20px;
+        margin-left: 350px;
+        font-family: MontserratLight;
+    }
+
+    .service-des {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .service-row {
+            width: 500px;
+            margin-left: 60px;
+
+            h4 {
+                color:#699150;
+                font-size: 30px;
+                letter-spacing: 2.5px;
+                text-align: center;
+                font-family: MontserratLight;
+            }
+            p {
+                width: 400px;
+                color:#000;
+                 font-size: 20px;
+                 font-family: MontserratLight;
+            }
+            img {
+                width: 200px;
+                height: 200px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100%;
+            }
+        }
+    }
+}

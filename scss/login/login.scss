@@ -1,0 +1,70 @@
+.loginContent {
+
+    height: 100%;
+    background-color: #e0ffcd;
+
+    .loginImage {
+        height: 400px;
+        background-position: center;
+        background-image: url(../../images/dogygroom-removebg-preview.png);
+    }
+
+    h1 {
+        color:#699150;
+        text-align: center;
+        font-size: 50px;
+        margin-top: -120px;
+        letter-spacing: 2.5px;
+        font-family: MontserratLight;
+    }
+    .loginIntro {
+        color: #000;
+        font-size: 25px;
+        width: 800px;
+        margin-left: 420px;
+        margin-bottom: 30px;
+        font-family: MontserratLight;
+    }
+    
+    .login {
+        display: flex;
+
+        form {
+            margin: 0 auto;
+          }
+          
+          label {
+            color:#699150;
+            font-size: 20px;
+            margin-bottom: 20px;
+            display: block;
+            font-family: MontserratLight;
+
+            .asterik {
+                color: red;
+            }
+          }
+          input {
+            display: block;
+            width: 350px;
+            height: 50px;
+            font-size: 20px;
+            margin-bottom: 30px;
+            padding-left: 10px;
+            background-color: #e9f1e4;
+            border: 3px solid #699150;
+          }
+           .submit { 
+        height: 50px;
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 150px; 
+        background-color: #e9f1e4;
+        border: 3px solid #699150;
+      }
+    }
+
+   
+}

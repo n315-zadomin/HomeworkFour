@@ -1,0 +1,27 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+// includes fonts for website 
+@font-face {
+    font-family: MontserratMedium;
+    src: url(../css/static/Montserrat-Medium.ttf);
+  }
+
+@font-face {
+    font-family: MontserratLight ;
+    src: url(../css/static/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url(../css/static/Montserrat-Bold.ttf);
+}
